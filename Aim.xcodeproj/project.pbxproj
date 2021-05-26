@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1CBB74265D56A900B00301 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CBB73265D56A900B00301 /* MainMenuScene.swift */; };
+		FA1CBB76265D5A6800B00301 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA1CBB75265D5A6800B00301 /* MainMenuScene.sks */; };
+		FA64A937265D63B300C7FCF0 /* WinWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A936265D63B300C7FCF0 /* WinWebViewController.swift */; };
+		FA64A939265D8BC800C7FCF0 /* LoseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A938265D8BC800C7FCF0 /* LoseWebViewController.swift */; };
+		FA64A93B265D909500C7FCF0 /* URLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA64A93A265D909500C7FCF0 /* URLData.swift */; };
 		FA88D9C4265BFCE100031AED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA88D9C3265BFCE100031AED /* AppDelegate.swift */; };
 		FA88D9C6265BFCE100031AED /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA88D9C5265BFCE100031AED /* GameScene.sks */; };
 		FA88D9C8265BFCE100031AED /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FA88D9C7265BFCE100031AED /* Actions.sks */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1CBB73265D56A900B00301 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		FA1CBB75265D5A6800B00301 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		FA64A936265D63B300C7FCF0 /* WinWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinWebViewController.swift; sourceTree = "<group>"; };
+		FA64A938265D8BC800C7FCF0 /* LoseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoseWebViewController.swift; sourceTree = "<group>"; };
+		FA64A93A265D909500C7FCF0 /* URLData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLData.swift; sourceTree = "<group>"; };
 		FA88D9C0265BFCE100031AED /* Aim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA88D9C3265BFCE100031AED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA88D9C5265BFCE100031AED /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -60,9 +70,14 @@
 			children = (
 				FA88D9C3265BFCE100031AED /* AppDelegate.swift */,
 				FA88D9C5265BFCE100031AED /* GameScene.sks */,
+				FA1CBB75265D5A6800B00301 /* MainMenuScene.sks */,
 				FA88D9C7265BFCE100031AED /* Actions.sks */,
+				FA1CBB73265D56A900B00301 /* MainMenuScene.swift */,
 				FA88D9C9265BFCE100031AED /* GameScene.swift */,
 				FA88D9CB265BFCE100031AED /* GameViewController.swift */,
+				FA64A936265D63B300C7FCF0 /* WinWebViewController.swift */,
+				FA64A938265D8BC800C7FCF0 /* LoseWebViewController.swift */,
+				FA64A93A265D909500C7FCF0 /* URLData.swift */,
 				FA88D9CD265BFCE100031AED /* Main.storyboard */,
 				FA88D9D0265BFCE200031AED /* Assets.xcassets */,
 				FA88D9D2265BFCE200031AED /* Info.plist */,
@@ -131,6 +146,7 @@
 				FA88D9C6265BFCE100031AED /* GameScene.sks in Resources */,
 				FA88D9D1265BFCE200031AED /* Assets.xcassets in Resources */,
 				FA88D9C8265BFCE100031AED /* Actions.sks in Resources */,
+				FA1CBB76265D5A6800B00301 /* MainMenuScene.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +159,11 @@
 			files = (
 				FA88D9CA265BFCE100031AED /* GameScene.swift in Sources */,
 				FA88D9CC265BFCE100031AED /* GameViewController.swift in Sources */,
+				FA64A939265D8BC800C7FCF0 /* LoseWebViewController.swift in Sources */,
 				FA88D9C4265BFCE100031AED /* AppDelegate.swift in Sources */,
+				FA64A93B265D909500C7FCF0 /* URLData.swift in Sources */,
+				FA64A937265D63B300C7FCF0 /* WinWebViewController.swift in Sources */,
+				FA1CBB74265D56A900B00301 /* MainMenuScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVB9G9N66S;
 				INFOPLIST_FILE = Aim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DVB9G9N66S;
 				INFOPLIST_FILE = Aim/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
